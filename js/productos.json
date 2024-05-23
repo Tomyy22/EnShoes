@@ -1,0 +1,705 @@
+[
+  {
+    "id": "gama-economica-01",
+    "titulo": "Puma RSX",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Puma RSX/Puma RSX01.jpeg",
+      "imagen2": "./img/gama-economica/Puma RSX/Puma RSX02.jpg",
+      "imagen3": "./img/gama-economica/Puma RSX/Puma RSX03.jpg",
+      "imagen4": "./img/gama-economica/Puma RSX/Puma RSX04.jpg",
+      "imagen5": "./img/gama-economica/Puma RSX/Puma RSX05.jpg",
+      "imagen6": "./img/gama-economica/Puma RSX/Puma RSX06.jpg",
+      "imagen7": "./img/gama-economica/Puma RSX/Puma RSX07.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "33000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-economica-02",
+    "titulo": "Adidas Kaptir",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Adidas Kaptir/Adidas Kaptir01.jpg",
+      "imagen2": "./img/gama-economica/Adidas Kaptir/Adidas Kaptir02.jpg",
+      "imagen3": "./img/gama-economica/Adidas Kaptir/Adidas Kaptir03.jpg",
+      "imagen4": "./img/gama-economica/Adidas Kaptir/Adidas Kaptir04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "32000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-economica-03",
+    "titulo": "Adidas Run Falcon",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon01.jpg",
+      "imagen2": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon02.jpg",
+      "imagen3": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon03.jpg",
+      "imagen4": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon04.jpg",
+      "imagen5": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon05.jpg",
+      "imagen6": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon06.jpg",
+      "imagen7": "./img/gama-economica/Adidas Run Falcon/Adidas Run Falcon07.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "30000",
+    "talle": "36 al 44"
+  },
+  {
+    "id": "gama-economica-04",
+    "titulo": "Vans Clasicas",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Vans Clasicas/Vans Clasicas01.jpg",
+      "imagen2": "./img/gama-economica/Vans Clasicas/Vans Clasicas02.jpg",
+      "imagen3": "./img/gama-economica/Vans Clasicas/Vans Clasicas03.jpg",
+      "imagen4": "./img/gama-economica/Vans Clasicas/Vans Clasicas04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "26000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-economica-05",
+    "titulo": "Vans Altas",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Vans Altas/Vans Altas01.jpeg",
+      "imagen2": "./img/gama-economica/Vans Altas/Vans Altas02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "26000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-06",
+    "titulo": "Nike Shadow",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Shadow/Nike Shadow01.jpg",
+      "imagen2": "./img/gama-economica/Nike Shadow/Nike Shadow02.jpg",
+      "imagen3": "./img/gama-economica/Nike Shadow/Nike Shadow03.jpg",
+      "imagen4": "./img/gama-economica/Nike Shadow/Nike Shadow04.jpg",
+      "imagen5": "./img/gama-economica/Nike Shadow/Nike Shadow05.jpg",
+      "imagen6": "./img/gama-economica/Nike Shadow/Nike Shadow06.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "30000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-07",
+    "titulo": "Nike React",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike React/Nike React01.jpg",
+      "imagen2": "./img/gama-economica/Nike React/Nike React02.jpg",
+      "imagen3": "./img/gama-economica/Nike React/Nike React03.jpg",
+      "imagen4": "./img/gama-economica/Nike React/Nike React04.jpg",
+      "imagen5": "./img/gama-economica/Nike React/Nike React05.jpg",
+      "imagen6": "./img/gama-economica/Nike React/Nike React06.jpg",
+      "imagen7": "./img/gama-economica/Nike React/Nike React07.jpg",
+      "imagen8": "./img/gama-economica/Nike React/Nike React08.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "24000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-08",
+    "titulo": "Nike Running",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Running/Nike Running01.jpg",
+      "imagen2": "./img/gama-economica/Nike Running/Nike Running02.jpg",
+      "imagen3": "./img/gama-economica/Nike Running/Nike Running03.jpg",
+      "imagen4": "./img/gama-economica/Nike Running/Nike Running04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "26000",
+    "talle": "36 al 44"
+  },
+  {
+    "id": "gama-economica-09",
+    "titulo": "Nike Uv",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Uv/Nike Uv01.jpg",
+      "imagen2": "./img/gama-economica/Nike Uv/Nike Uv02.jpg",
+      "imagen3": "./img/gama-economica/Nike Uv/Nike Uv03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "28000",
+    "talle": "35 al 36"
+  },
+  {
+    "id": "gama-economica-10",
+    "titulo": "Nike Air Max Command",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Air Max Command/Nike Air Max Command01.jpg",
+      "imagen2": "./img/gama-economica/Nike Air Max Command/Nike Air Max Command02.jpg",
+      "imagen3": "./img/gama-economica/Nike Air Max Command/Nike Air Max Command03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "30000",
+    "talle": "38 al 44"
+  },
+  {
+    "id": "gama-economica-11",
+    "titulo": "Jordan Low",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Jordan Low/Jordan Low01.jpg",
+      "imagen2": "./img/gama-economica/Jordan Low/Jordan Low02.jpg",
+      "imagen3": "./img/gama-economica/Jordan Low/Jordan Low03.png"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "33000",
+    "talle": "38 al 44"
+  },
+  {
+    "id": "gama-economica-12",
+    "titulo": "AF1 Goretex",
+    "imagen": {
+      "imagen1": "./img/gama-economica/AF1 Goretex/AF1 Goretex01.jpg",
+      "imagen2": "./img/gama-economica/AF1 Goretex/AF1 Goretex02.jpg",
+      "imagen3": "./img/gama-economica/AF1 Goretex/AF1 Goretex03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "28000",
+    "talle": "38 al 44"
+  },
+  {
+    "id": "gama-economica-13",
+    "titulo": "New Balance",
+    "imagen": {
+      "imagen1": "./img/gama-economica/New Balance/New Balance01.jpg",
+      "imagen2": "./img/gama-economica/New Balance/New Balance02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "25000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-14",
+    "titulo": "Air Force One",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Air Force One/Air Force One01.jpg",
+      "imagen2": "./img/gama-economica/Air Force One/Air Force One02.jpg",
+      "imagen3": "./img/gama-economica/Air Force One/Air Force One03.jpg",
+      "imagen4": "./img/gama-economica/Air Force One/Air Force One04.jpg",
+      "imagen5": "./img/gama-economica/Air Force One/Air Force One05.jpg",
+      "imagen6": "./img/gama-economica/Air Force One/Air Force One06.jpg",
+      "imagen7": "./img/gama-economica/Air Force One/Air Force One07.jpg",
+      "imagen8": "./img/gama-economica/Air Force One/Air Force One08.jpg",
+      "imagen9": "./img/gama-economica/Air Force One/Air Force One09.jpg",
+      "imagen10": "./img/gama-economica/Air Force One/Air Force One10.jpg",
+      "imagen11": "./img/gama-economica/Air Force One/Air Force One11.jpg",
+      "imagen12": "./img/gama-economica/Air Force One/Air Force One12.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "25000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-economica-15",
+    "titulo": "AF1 Tm",
+    "imagen": {
+      "imagen1": "./img/gama-economica/AF1 Tm/AF1 Tm01.jpg",
+      "imagen2": "./img/gama-economica/AF1 Tm/AF1 Tm02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "25000",
+    "talle": "35 al 43"
+  },
+  {
+    "id": "gama-economica-16",
+    "titulo": "Converse Clasica",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Converse Clasica/Converse Clasica01.jpg",
+      "imagen2": "./img/gama-economica/Converse Clasica/Converse Clasica02.jpg",
+      "imagen3": "./img/gama-economica/Converse Clasica/Converse Clasica03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "25000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-17",
+    "titulo": "Converse Alta",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Converse Alta/Converse Alta01.jpeg",
+      "imagen2": "./img/gama-economica/Converse Alta/Converse Alta02.jpg",
+      "imagen3": "./img/gama-economica/Converse Alta/Converse Alta03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "25000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-18",
+    "titulo": "Nike Air Max 90",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9001.jpg",
+      "imagen2": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9002.jpg",
+      "imagen3": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9003.jpg",
+      "imagen4": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9004.jpg",
+      "imagen5": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9005.jpg",
+      "imagen6": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9006.jpg",
+      "imagen7": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9007.jpg",
+      "imagen8": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9008.jpg",
+      "imagen9": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9009.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "28000",
+    "talle": "38 al 44"
+  },
+  {
+    "id": "gama-economica-19",
+    "titulo": "Mc Queen",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Mc Queen/Mc Queen01.jpg",
+      "imagen2": "./img/gama-economica/Mc Queen/Mc Queen02.jpg",
+      "imagen3": "./img/gama-economica/Mc Queen/Mc Queen03.jpg",
+      "imagen4": "./img/gama-economica/Mc Queen/Mc Queen04.jpg",
+      "imagen5": "./img/gama-economica/Mc Queen/Mc Queen05.jpg",
+      "imagen6": "./img/gama-economica/Mc Queen/Mc Queen06.jpg",
+      "imagen7": "./img/gama-economica/Mc Queen/Mc Queen07.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "30000",
+    "talle": "35 al 40"
+  },
+
+  {
+    "id": "gama-premium-01",
+    "titulo": "Vans Knu",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Vans Knu/Vans Knu01.jpg",
+      "imagen2": "./img/gama-premium/Vans Knu/Vans Knu02.jpg",
+      "imagen3": "./img/gama-premium/Vans Knu/Vans Knu03.jpg",
+      "imagen4": "./img/gama-premium/Vans Knu/Vans Knu04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "48000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-02",
+    "titulo": "Vans Knu Altas",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Vans Knu Altas/Vans Knu Altas01.png",
+      "imagen2": "./img/gama-premium/Vans Knu Altas/Vans Knu Altas02.png"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "50000",
+    "talle": "35 al 44"
+  },
+
+  {
+    "id": "gama-premium-03",
+    "titulo": "47 Street",
+    "imagen": {
+      "imagen1": "./img/gama-premium/47 Street/47 Street01.jpg",
+      "imagen2": "./img/gama-premium/47 Street/47 Street02.jpg",
+      "imagen3": "./img/gama-premium/47 Street/47 Street03.jpg",
+      "imagen4": "./img/gama-premium/47 Street/47 Street04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "52000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-04",
+    "titulo": "Jordan Retro 4",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Jordan Retro 4/Jordan Retro 401.jpg",
+      "imagen2": "./img/gama-premium/Jordan Retro 4/Jordan Retro 402.jpg",
+      "imagen3": "./img/gama-premium/Jordan Retro 4/Jordan Retro 403.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "54000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-05",
+    "titulo": "Nike Zoom",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Zoom/Nike Zoom01.jpg",
+      "imagen2": "./img/gama-premium/Nike Zoom/Nike Zoom02.jpg",
+      "imagen3": "./img/gama-premium/Nike Zoom/Nike Zoom03.jpg",
+      "imagen4": "./img/gama-premium/Nike Zoom/Nike Zoom04.jpg",
+      "imagen5": "./img/gama-premium/Nike Zoom/Nike Zoom05.png"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "32500",
+    "talle": "35 al 43"
+  },
+  {
+    "id": "gama-premium-06",
+    "titulo": "Nike Pegasus",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Pegasus/Nike Pegasus01.jpg",
+      "imagen2": "./img/gama-premium/Nike Pegasus/Nike Pegasus02.jpg",
+      "imagen3": "./img/gama-premium/Nike Pegasus/Nike Pegasus03.jpg",
+      "imagen4": "./img/gama-premium/Nike Pegasus/Nike Pegasus04.jpg",
+      "imagen5": "./img/gama-premium/Nike Pegasus/Nike Pegasus05.jpg",
+      "imagen6": "./img/gama-premium/Nike Pegasus/Nike Pegasus06.jpg",
+      "imagen7": "./img/gama-premium/Nike Pegasus/Nike Pegasus07.jpg",
+      "imagen8": "./img/gama-premium/Nike Pegasus/Nike Pegasus08.png"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "45000",
+    "talle": "38 a 40"
+  },
+
+  {
+    "id": "gama-premium-07",
+    "titulo": "Nike Sb",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Sb/Nike Sb01.jpg",
+      "imagen2": "./img/gama-premium/Nike Sb/Nike Sb02.jpg",
+      "imagen3": "./img/gama-premium/Nike Sb/Nike Sb03.jpg",
+      "imagen4": "./img/gama-premium/Nike Sb/Nike Sb04.jpg",
+      "imagen5": "./img/gama-premium/Nike Sb/Nike Sb05.jpg",
+      "imagen6": "./img/gama-premium/Nike Sb/Nike Sb06.jpg",
+      "imagen7": "./img/gama-premium/Nike Sb/Nike Sb07.jpg",
+      "imagen8": "./img/gama-premium/Nike Sb/Nike Sb08.jpg",
+      "imagen9": "./img/gama-premium/Nike Sb/Nike Sb09.jpg",
+      "imagen10": "./img/gama-premium/Nike Sb/Nike Sb10.jpg",
+      "imagen11": "./img/gama-premium/Nike Sb/Nike Sb11.jpg",
+      "imagen12": "./img/gama-premium/Nike Sb/Nike Sb12.jpg",
+      "imagen13": "./img/gama-premium/Nike Sb/Nike Sb13.jpg",
+      "imagen14": "./img/gama-premium/Nike Sb/Nike Sb14.jpg",
+      "imagen15": "./img/gama-premium/Nike Sb/Nike Sb15.jpg",
+      "imagen16": "./img/gama-premium/Nike Sb/Nike Sb16.jpg",
+      "imagen17": "./img/gama-premium/Nike Sb/Nike Sb17.jpg",
+      "imagen18": "./img/gama-premium/Nike Sb/Nike Sb18.jpg",
+      "imagen19": "./img/gama-premium/Nike Sb/Nike Sb19.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "48000",
+    "talle": "34 al 39"
+  },
+  {
+    "id": "gama-premium-08",
+    "titulo": "Adidas Low",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Adidas Low/Adidas Low01.jpg",
+      "imagen2": "./img/gama-premium/Adidas Low/Adidas Low02.jpg",
+      "imagen3": "./img/gama-premium/Adidas Low/Adidas Low03.jpg",
+      "imagen4": "./img/gama-premium/Adidas Low/Adidas Low04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "46000",
+    "talle": "39 al 44"
+  },
+  {
+    "id": "gama-premium-09",
+    "titulo": "AF1 Louis Vuitton",
+    "imagen": {
+      "imagen1": "./img/gama-premium/AF1 Louis Vuitton/AF1 Louis Vuitton01.png",
+      "imagen2": "./img/gama-premium/AF1 Louis Vuitton/AF1 Louis Vuitton02.png"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "48000",
+    "talle": "35 al 42"
+  },
+
+  {
+    "id": "gama-premium-10",
+    "titulo": "Nike AF1",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike AF1/Nike AF101.jpg",
+      "imagen2": "./img/gama-premium/Nike AF1/Nike AF102.jpg",
+      "imagen3": "./img/gama-premium/Nike AF1/Nike AF103.jpg",
+      "imagen4": "./img/gama-premium/Nike AF1/Nike AF104.jpg",
+      "imagen5": "./img/gama-premium/Nike AF1/Nike AF105.jpg",
+      "imagen6": "./img/gama-premium/Nike AF1/Nike AF106.jpg",
+      "imagen7": "./img/gama-premium/Nike AF1/Nike AF107.jpg",
+      "imagen8": "./img/gama-premium/Nike AF1/Nike AF108.jpg",
+      "imagen9": "./img/gama-premium/Nike AF1/Nike AF109.jpg",
+      "imagen11": "./img/gama-premium/Nike AF1/Nike AF111.jpg",
+      "imagen12": "./img/gama-premium/Nike AF1/Nike AF112.jpg",
+      "imagen13": "./img/gama-premium/Nike AF1/Nike AF113.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "48000",
+    "talle": "39 al 44"
+  },
+
+  {
+    "id": "gama-premium-11",
+    "titulo": "AF1 Top",
+    "imagen": {
+      "imagen1": "./img/gama-premium/AF1 Top/AF1 Top01.jpg",
+      "imagen2": "./img/gama-premium/AF1 Top/AF1 Top02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "50000",
+    "talle": "34 al 39"
+  },
+  {
+    "id": "gama-premium-12",
+    "titulo": "Adidas Forum",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Adidas Forum/Adidas Forum01.jpeg",
+      "imagen2": "./img/gama-premium/Adidas Forum/Adidas Forum02.png",
+      "imagen3": "./img/gama-premium/Adidas Forum/Adidas Forum03.png",
+      "imagen4": "./img/gama-premium/Adidas Forum/Adidas Forum04.png",
+      "imagen5": "./img/gama-premium/Adidas Forum/Adidas Forum05.png",
+      "imagen6": "./img/gama-premium/Adidas Forum/Adidas Forum06.png",
+      "imagen7": "./img/gama-premium/Adidas Forum/Adidas Forum07.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "41000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-13",
+    "titulo": "Nike Air Max One",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Air Max One/Nike Air Max One01.jpg",
+      "imagen2": "./img/gama-premium/Nike Air Max One/Nike Air Max One02.jpg",
+      "imagen3": "./img/gama-premium/Nike Air Max One/Nike Air Max One03.jpg",
+      "imagen4": "./img/gama-premium/Nike Air Max One/Nike Air Max One04.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "45000",
+    "talle": "39 al 43"
+  },
+  {
+    "id": "gama-premium-14",
+    "titulo": "Adidas Bad Bunny",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Adidas Bad Bunny/Adidas Bad Bunny01.jpg",
+      "imagen2": "./img/gama-premium/Adidas Bad Bunny/Adidas Bad Bunny02.jpg",
+      "imagen3": "./img/gama-premium/Adidas Bad Bunny/Adidas Bad Bunny03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "54000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-15",
+    "titulo": "Jordan High",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Jordan High/Jordan High01.jpg",
+      "imagen2": "./img/gama-premium/Jordan High/Jordan High02.jpg",
+      "imagen3": "./img/gama-premium/Jordan High/Jordan High03.png"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "40000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-16",
+    "titulo": "Vans VR",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Vans VR/Vans VR01.jpg",
+      "imagen2": "./img/gama-premium/Vans VR/Vans VR02.jpg",
+      "imagen3": "./img/gama-premium/Vans VR/Vans VR03.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "45500",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-premium-17",
+    "titulo": "Vans Ultra",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Vans Ultra/Vans Ultra01.jpg",
+      "imagen2": "./img/gama-premium/Vans Ultra/Vans Ultra02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "46000",
+    "talle": "38 al 43"
+  },
+  {
+    "id": "gama-premium-18",
+    "titulo": "Nike Furyosa",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Furyosa/Nike Furyosa01.png",
+      "imagen2": "./img/gama-premium/Nike Furyosa/Nike Furyosa02.png",
+      "imagen3": "./img/gama-premium/Nike Furyosa/Nike Furyosa03.png",
+      "imagen4": "./img/gama-premium/Nike Furyosa/Nike Furyosa04.png",
+      "imagen5": "./img/gama-premium/Nike Furyosa/Nike Furyosa05.png",
+      "imagen6": "./img/gama-premium/Nike Furyosa/Nike Furyosa06.png",
+      "imagen7": "./img/gama-premium/Nike Furyosa/Nike Furyosa07.png",
+      "imagen8": "./img/gama-premium/Nike Furyosa/Nike Furyosa08.png"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "85000",
+    "talle": "35 al 43"
+  },
+  {
+    "id": "gama-premium-19",
+    "titulo": "Nike Just Do It",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Just Do It/Nike Just Do It01.jpg",
+      "imagen2": "./img/gama-premium/Nike Just Do It/Nike Just Do It02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "45000",
+    "talle": "38 al 43"
+  },
+
+  {
+    "id": "ojotas-01",
+    "titulo": "Ojotas Adidas",
+    "imagen": {
+      "imagen1": "./img/ojotas/Ojotas Adidas/Ojotas Adidas01.jpg",
+      "imagen2": "./img/ojotas/Ojotas Adidas/Ojotas Adidas02.jpg",
+      "imagen3": "./img/ojotas/Ojotas Adidas/Ojotas Adidas03.jpg"
+    },
+    "categoria": {
+      "nombre": "Ojotas",
+      "id": "ojotas"
+    },
+    "precio": "20000",
+    "talle": "36 al 45"
+  },
+  {
+    "id": "ojotas-02",
+    "titulo": "Ojotas Futbol",
+    "imagen": {
+      "imagen1": "./img/ojotas/Ojotas Futbol/Ojotas Futbol01.jpg",
+      "imagen2": "./img/ojotas/Ojotas Futbol/Ojotas Futbol02.jpg",
+      "imagen3": "./img/ojotas/Ojotas Futbol/Ojotas Futbol03.jpg",
+      "imagen4": "./img/ojotas/Ojotas Futbol/Ojotas Futbol04.jpg",
+      "imagen5": "./img/ojotas/Ojotas Futbol/Ojotas Futbol05.jpg",
+      "imagen6": "./img/ojotas/Ojotas Futbol/Ojotas Futbol06.jpg"
+    },
+    "categoria": {
+      "nombre": "Ojotas",
+      "id": "ojotas"
+    },
+    "precio": "18000",
+    "talle": "36 al 45"
+  },
+  {
+    "id": "ojotas-03",
+    "titulo": "Ojotas Jordan",
+    "imagen": {
+      "imagen1": "./img/ojotas/Ojotas Jordan/Ojotas Jordan01.jpg",
+      "imagen2": "./img/ojotas/Ojotas Jordan/Ojotas Jordan02.jpg",
+      "imagen3": "./img/ojotas/Ojotas Jordan/Ojotas Jordan03.jpg",
+      "imagen4": "./img/ojotas/Ojotas Jordan/Ojotas Jordan04.jpg",
+      "imagen5": "./img/ojotas/Ojotas Jordan/Ojotas Jordan05.jpg",
+      "imagen6": "./img/ojotas/Ojotas Jordan/Ojotas Jordan06.jpg",
+      "imagen7": "./img/ojotas/Ojotas Jordan/Ojotas Jordan07.jpg"
+    },
+    "categoria": {
+      "nombre": "Ojotas",
+      "id": "ojotas"
+    },
+    "precio": "16000",
+    "talle": "36 al 40"
+  }
+]
