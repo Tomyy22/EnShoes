@@ -522,3 +522,8 @@ main {
     width: 100%;
   }
 }
+
+
+.bg-body-tertiary{
+  background-color: var(--clr-main) !important;
+}

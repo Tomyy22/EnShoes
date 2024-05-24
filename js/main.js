@@ -1,6 +1,9 @@
 import { actualizarNumero } from "./main-utils/actualizarNumero.js";
 import { cargarProductos } from "./main-utils/cargarProductos.js";
 
+
+
+
 let productos = [];
 
 fetch("./js/productos.json")
@@ -54,3 +57,39 @@ document.querySelector(".btn-close").addEventListener("click", () => {
   location.reload();
   modalAbierto = false;
 });
+
+let gamaSeleccionada = 'todos';
+
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.querySelector('.form-control');
+    const gamaButtons = document.querySelectorAll('.boton-categoria');
+    searchInput.addEventListener('input', (event) => {
+        filtrarYMostrarProductos();
+    });
+
+    gamaButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            gamaSeleccionada = event.currentTarget.id;
+            document.querySelector('.boton-categoria.active').classList.remove('active');
+            event.currentTarget.classList.add('active');
+            filtrarYMostrarProductos();
+        });
+    });
+});
+
+function filtrarYMostrarProductos() {
+  const searchText = document
+    .querySelector(".form-control")
+    .value.toLowerCase();
+  let filteredProducts = productos.filter((producto) =>
+    producto.titulo.toLowerCase().includes(searchText)
+  );
+
+  if (gamaSeleccionada !== "todos") {
+    filteredProducts = filteredProducts.filter(
+      (producto) => producto.categoria.id === gamaSeleccionada
+    );
+  }
+
+  cargarProductos(filteredProducts);
+}
