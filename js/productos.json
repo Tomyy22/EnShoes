@@ -15,7 +15,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "33000",
+    "precio": "30000",
     "talle": "35 al 44"
   },
   {
@@ -31,7 +31,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "32000",
+    "precio": "28000",
     "talle": "35 al 44"
   },
   {
@@ -50,7 +50,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "30000",
+    "precio": "27000",
     "talle": "36 al 44"
   },
   {
@@ -80,7 +80,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "26000",
+    "precio": "28000",
     "talle": "35 al 40"
   },
   {
@@ -98,7 +98,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "30000",
+    "precio": "33000",
     "talle": "35 al 40"
   },
   {
@@ -118,7 +118,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "24000",
+    "precio": "23500",
     "talle": "35 al 40"
   },
   {
@@ -134,7 +134,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "26000",
+    "precio": "30000",
     "talle": "36 al 44"
   },
   {
@@ -179,7 +179,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "33000",
+    "precio": "29000",
     "talle": "38 al 44"
   },
   {
@@ -194,7 +194,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "28000",
+    "precio": "24000",
     "talle": "38 al 44"
   },
   {
@@ -208,7 +208,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "25000",
+    "precio": "28000",
     "talle": "35 al 40"
   },
   {
@@ -232,7 +232,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "25000",
+    "precio": "24000",
     "talle": "35 al 44"
   },
   {
@@ -246,7 +246,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "25000",
+    "precio": "29000",
     "talle": "35 al 43"
   },
   {
@@ -261,7 +261,7 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "25000",
+    "precio": "25500",
     "talle": "35 al 40"
   },
   {
@@ -276,11 +276,27 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "25000",
+    "precio": "27000",
     "talle": "35 al 40"
   },
   {
     "id": "gama-economica-18",
+    "titulo": "Converse Plataforma",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Converse Plataforma/Converse Plataforma01.jpeg",
+      "imagen2": "./img/gama-economica/Converse Plataforma/Converse Plataforma02.jpeg",
+      "imagen3": "./img/gama-economica/Converse Plataforma/Converse Plataforma03.jpeg",
+      "imagen4": "./img/gama-economica/Converse Plataforma/Converse Plataforma04.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "26500",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-19",
     "titulo": "Nike Air Max 90",
     "imagen": {
       "imagen1": "./img/gama-economica/Nike Air Max 90/Nike Air Max 9001.jpg",
@@ -297,20 +313,18 @@
       "nombre": "Gama Economica",
       "id": "gama-economica"
     },
-    "precio": "28000",
+    "precio": "28500",
     "talle": "38 al 44"
   },
   {
-    "id": "gama-economica-19",
+    "id": "gama-economica-20",
     "titulo": "Mc Queen",
     "imagen": {
       "imagen1": "./img/gama-economica/Mc Queen/Mc Queen01.jpg",
       "imagen2": "./img/gama-economica/Mc Queen/Mc Queen02.jpg",
       "imagen3": "./img/gama-economica/Mc Queen/Mc Queen03.jpg",
       "imagen4": "./img/gama-economica/Mc Queen/Mc Queen04.jpg",
-      "imagen5": "./img/gama-economica/Mc Queen/Mc Queen05.jpg",
-      "imagen6": "./img/gama-economica/Mc Queen/Mc Queen06.jpg",
-      "imagen7": "./img/gama-economica/Mc Queen/Mc Queen07.jpg"
+      "imagen5": "./img/gama-economica/Mc Queen/Mc Queen05.jpg"
     },
     "categoria": {
       "nombre": "Gama Economica",
@@ -318,6 +332,96 @@
     },
     "precio": "30000",
     "talle": "35 al 40"
+  },
+  {
+    "id": "gama-economica-21",
+    "titulo": "Mc Queen Camara",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Mc Queen Camara/Mc Queen Camara01.jpg",
+      "imagen2": "./img/gama-economica/Mc Queen Camara/Mc Queen Camara02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "31000",
+    "talle": "36 al 44"
+  },
+  {
+    "id": "gama-economica-22",
+    "titulo": "Zapatillas Futsal Nike",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Zapatillas Futsal Nike/Zapatillas Futsal Nike01.jpeg",
+      "imagen2": "./img/gama-economica/Zapatillas Futsal Nike/Zapatillas Futsal Nike02.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "35000",
+    "talle": "38 al 43"
+  },
+  {
+    "id": "gama-economica-23",
+    "titulo": "Adidas Superstar",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Adidas Superstar/Adidas Superstar01.png",
+      "imagen2": "./img/gama-economica/Adidas Superstar/Adidas Superstar02.png",
+      "imagen3": "./img/gama-economica/Adidas Superstar/Adidas Superstar03.png",
+      "imagen4": "./img/gama-economica/Adidas Superstar/Adidas Superstar04.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "28000",
+    "talle": "35 al 42"
+  },
+  {
+    "id": "gama-economica-24",
+    "titulo": "Adidas Ultra Boost",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Adidas Ultra Boost/Adidas Ultra Boost01.jpg",
+      "imagen2": "./img/gama-economica/Adidas Ultra Boost/Adidas Ultra Boost02.jpg",
+      "imagen3": "./img/gama-economica/Adidas Ultra Boost/Adidas Ultra Boost03.jpeg",
+      "imagen4": "./img/gama-economica/Adidas Ultra Boost/Adidas Ultra Boost04.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "26000",
+    "talle": "35 al 44"
+  },
+  {
+    "id": "gama-economica-25",
+    "titulo": "Nike Revolution",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Revolution/Nike Revolution01.jpeg",
+      "imagen2": "./img/gama-economica/Nike Revolution/Nike Revolution02.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "28000",
+    "talle": "34 al 44"
+  },
+
+  {
+    "id": "gama-economica-26",
+    "titulo": "Nike Cortez",
+    "imagen": {
+      "imagen1": "./img/gama-economica/Nike Cortez/Nike Cortez01.jpeg",
+      "imagen2": "./img/gama-economica/Nike Cortez/Nike Cortez02.jpeg",
+      "imagen3": "./img/gama-economica/Nike Cortez/Nike Cortez03.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Economica",
+      "id": "gama-economica"
+    },
+    "precio": "28000",
+    "talle": "35 al 44"
   },
 
   {
@@ -364,7 +468,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "52000",
+    "precio": "58000",
     "talle": "35 al 44"
   },
   {
@@ -396,7 +500,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "32500",
+    "precio": "30000",
     "talle": "35 al 43"
   },
   {
@@ -416,7 +520,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "45000",
+    "precio": "50000",
     "talle": "38 a 40"
   },
 
@@ -448,7 +552,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "48000",
+    "precio": "50000",
     "talle": "34 al 39"
   },
   {
@@ -464,7 +568,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "46000",
+    "precio": "49000",
     "talle": "39 al 44"
   },
   {
@@ -478,7 +582,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "48000",
+    "precio": "50000",
     "talle": "35 al 42"
   },
 
@@ -503,7 +607,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "48000",
+    "precio": "40000",
     "talle": "39 al 44"
   },
 
@@ -512,14 +616,15 @@
     "titulo": "AF1 Top",
     "imagen": {
       "imagen1": "./img/gama-premium/AF1 Top/AF1 Top01.jpg",
-      "imagen2": "./img/gama-premium/AF1 Top/AF1 Top02.jpg"
+      "imagen2": "./img/gama-premium/AF1 Top/AF1 Top02.jpg",
+      "imagen3": "./img/gama-premium/AF1 Top/AF1 Top03.jpeg"
     },
     "categoria": {
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "50000",
-    "talle": "34 al 39"
+    "precio": "52000",
+    "talle": "39 al 43"
   },
   {
     "id": "gama-premium-12",
@@ -537,7 +642,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "41000",
+    "precio": "41500",
     "talle": "35 al 44"
   },
   {
@@ -553,7 +658,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "45000",
+    "precio": "49000",
     "talle": "39 al 43"
   },
   {
@@ -583,7 +688,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "40000",
+    "precio": "41000",
     "talle": "35 al 44"
   },
   {
@@ -598,7 +703,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "45500",
+    "precio": "46500",
     "talle": "35 al 44"
   },
   {
@@ -612,7 +717,7 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "46000",
+    "precio": "49000",
     "talle": "38 al 43"
   },
   {
@@ -646,9 +751,126 @@
       "nombre": "Gama Premium",
       "id": "gama-premium"
     },
-    "precio": "45000",
+    "precio": "49000",
     "talle": "38 al 43"
   },
+  {
+    "id": "gama-premium-20",
+    "titulo": "Adidas Nizza",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Adidas Nizza/Adidas Nizza01.jpg",
+      "imagen2": "./img/gama-premium/Adidas Nizza/Adidas Nizza02.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "41000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-premium-21",
+    "titulo": "Adidas Samba",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Adidas Samba/Adidas Samba01.jpg",
+      "imagen2": "./img/gama-premium/Adidas Samba/Adidas Samba02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "44000",
+    "talle": "36 al 41"
+  },
+  {
+    "id": "gama-premium-22",
+    "titulo": "Fila Disruptor",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Fila Disruptor/Fila Disruptor01.jpg",
+      "imagen2": "./img/gama-premium/Fila Disruptor/Fila Disruptor02.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "49000",
+    "talle": "35 al 40"
+  },
+  {
+    "id": "gama-premium-23",
+    "titulo": "New Balance 247",
+    "imagen": {
+      "imagen1": "./img/gama-premium/New Balance 247/New Balance 24701.png",
+      "imagen2": "./img/gama-premium/New Balance 247/New Balance 24702.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "43000",
+    "talle": "43 al 44"
+  },
+  {
+    "id": "gama-premium-24",
+    "titulo": "Nike Stussy",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Nike Stussy/Nike Stussy01.jpg",
+      "imagen2": "./img/gama-premium/Nike Stussy/Nike Stussy02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "50000",
+    "talle": "39 al 44"
+  },
+  {
+    "id": "gama-premium-25",
+    "titulo": "Vans Cush",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Vans Cush/Vans Cush01.jpg",
+      "imagen2": "./img/gama-premium/Vans Cush/Vans Cush02.jpg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "48000",
+    "talle": "38 al 43"
+  },
+  {
+    "id": "gama-premium-26",
+    "titulo": "Jordan Travis Low",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Jordan Travis Low/Jordan Travis Low01.jpeg",
+      "imagen2": "./img/gama-premium/Jordan Travis Low/Jordan Travis Low02.jpeg",
+      "imagen3": "./img/gama-premium/Jordan Travis Low/Jordan Travis Low03.jpeg",
+      "imagen4": "./img/gama-premium/Jordan Travis Low/Jordan Travis Low04.jpeg",
+      "imagen5": "./img/gama-premium/Jordan Travis Low/Jordan Travis Low05.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "52000",
+    "talle": "38 al 43"
+  },
+  {
+    "id": "gama-premium-27",
+    "titulo": "Adidas Campus 00",
+    "imagen": {
+      "imagen1": "./img/gama-premium/Adidas Campus 00/Adidas Campus 0001.jpg",
+      "imagen2": "./img/gama-premium/Adidas Campus 00/Adidas Campus 0002.jpg",
+      "imagen3": "./img/gama-premium/Adidas Campus 00/Adidas Campus 0003.jpeg"
+    },
+    "categoria": {
+      "nombre": "Gama Premium",
+      "id": "gama-premium"
+    },
+    "precio": "53000",
+    "talle": "34 al 43"
+  },
+
 
   {
     "id": "ojotas-01",
@@ -662,7 +884,7 @@
       "nombre": "Ojotas",
       "id": "ojotas"
     },
-    "precio": "20000",
+    "precio": "19000",
     "talle": "36 al 45"
   },
   {
@@ -680,7 +902,7 @@
       "nombre": "Ojotas",
       "id": "ojotas"
     },
-    "precio": "18000",
+    "precio": "19000",
     "talle": "36 al 45"
   },
   {
@@ -699,7 +921,7 @@
       "nombre": "Ojotas",
       "id": "ojotas"
     },
-    "precio": "16000",
+    "precio": "19000",
     "talle": "36 al 40"
   }
 ]
