@@ -365,9 +365,9 @@
     "id": "gama-economica-23",
     "titulo": "Adidas Superstar",
     "imagen": {
-      "imagen1": "./img/gama-economica/Adidas Superstar/Adidas Superstar01.png",
-      "imagen2": "./img/gama-economica/Adidas Superstar/Adidas Superstar02.png",
-      "imagen3": "./img/gama-economica/Adidas Superstar/Adidas Superstar03.png",
+      "imagen1": "./img/gama-economica/Adidas Superstar/Adidas Superstar01.jpg",
+      "imagen2": "./img/gama-economica/Adidas Superstar/Adidas Superstar02.jpg",
+      "imagen3": "./img/gama-economica/Adidas Superstar/Adidas Superstar03.jpg",
       "imagen4": "./img/gama-economica/Adidas Superstar/Adidas Superstar04.jpeg"
     },
     "categoria": {
@@ -800,7 +800,7 @@
     "id": "gama-premium-23",
     "titulo": "New Balance 247",
     "imagen": {
-      "imagen1": "./img/gama-premium/New Balance 247/New Balance 24701.png",
+      "imagen1": "./img/gama-premium/New Balance 247/New Balance 24701.jpg",
       "imagen2": "./img/gama-premium/New Balance 247/New Balance 24702.jpg"
     },
     "categoria": {
