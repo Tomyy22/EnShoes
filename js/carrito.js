@@ -16,14 +16,16 @@ function generarLink() {
             const partesRutaImagen = producto.imagen.split('/');
             const rutaCodificada = partesRutaImagen.map(parte => encodeURIComponent(parte)).join('/');
             
-            return `Producto: ${producto.titulo} - Talle: ${producto.talle} - Imagen: ${window.location.origin}/${rutaCodificada}`;
-        }).join(" / ");
+            return `Producto: ${producto.titulo} - Cantidad: ${producto.cantidad} - Talle: ${producto.talle} - Imagen: ${window.location.origin}/${rutaCodificada}`;
+        }).join("%0A%0A"); // %0A%0A agrega dos saltos de línea entre los productos
         
-        const mensajeWhatsApp = `Quiero Comprar en En-Shoes 😎🔥👟 - ${mensajeProductos}`;
-        const urlWhatsApp = `https://wa.me/543407441094?text=${encodeURIComponent(mensajeWhatsApp)}`;
+        const mensajeWhatsApp = `Quiero Comprar en En-Shoes 😎🔥👟%0A%0A${mensajeProductos}`;
+        const urlWhatsApp = `https://wa.me/543407441094?text=${mensajeWhatsApp}`;
         document.querySelector(".link-comprar").setAttribute("href", urlWhatsApp);
     }
 }
+
+
 
 function handleComprarClick() {
     generarLink();
