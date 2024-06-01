@@ -13,12 +13,14 @@ function generarLink() {
     const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito"));
     if (productosEnCarrito && productosEnCarrito.length > 0) {
         const mensajeProductos = productosEnCarrito.map(producto => {
-            const rutaCodificada = producto.imagen.split('/').map(parte => encodeURIComponent(parte.replace(/ /g, '%20')).replace(/%25/g, '%')).join('/');
-            return `Producto: ${producto.titulo} - Cantidad: ${producto.cantidad} - Talle: ${producto.talle} - Imagen: ${window.location.origin}/${rutaCodificada} %0A`; 
-        }).join("%0A%0A"); 
+            const partesRutaImagen = producto.imagen.split('/');
+            const rutaCodificada = partesRutaImagen.map(parte => encodeURIComponent(parte)).join('/');
+            
+            return `Producto: ${producto.titulo} - Talle: ${producto.talle} - Imagen: ${window.location.origin}/${rutaCodificada}`;
+        }).join(" / ");
         
-        const mensajeCodificado = encodeURIComponent(`Quiero Comprar en En-Shoes 😎🔥👟%0A%0A${mensajeProductos}`);
-        const urlWhatsApp = `https://wa.me/543407441094?text=${mensajeCodificado}`;
+        const mensajeWhatsApp = `Quiero Comprar en En-Shoes 😎🔥👟 - ${mensajeProductos}`;
+        const urlWhatsApp = `https://wa.me/543407441094?text=${encodeURIComponent(mensajeWhatsApp)}`;
         document.querySelector(".link-comprar").setAttribute("href", urlWhatsApp);
     }
 }
