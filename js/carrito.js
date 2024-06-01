@@ -12,8 +12,10 @@ botonVaciar.addEventListener("click", vaciarCarrito);
 function generarLink() {
     const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito"));
     if (productosEnCarrito && productosEnCarrito.length > 0) {
-        const nombresProductos = productosEnCarrito.map(producto => producto.titulo).join(", ");
-        const mensajeWhatsApp = `Quiero Comprar en En-Shoes 😎🔥👟 - Productos: ${nombresProductos}`;
+        const mensajeProductos = productosEnCarrito.map(producto => 
+            `Producto: ${producto.titulo} - Talle: ${producto.talle} - Imagen: ${window.location.origin}/${producto.imagen}`
+        ).join(" / ");
+        const mensajeWhatsApp = `Quiero Comprar en En-Shoes 😎🔥👟 - ${mensajeProductos}`;
         const urlWhatsApp = `https://wa.me/543407441094?text=${encodeURIComponent(mensajeWhatsApp)}`;
         linkComprar.setAttribute("href", urlWhatsApp);
     }

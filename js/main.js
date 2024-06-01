@@ -1,9 +1,5 @@
 import { actualizarNumero } from "./main-utils/actualizarNumero.js";
 import { cargarProductos } from "./main-utils/cargarProductos.js";
-
-
-
-
 let productos = [];
 
 fetch("./js/productos.json")

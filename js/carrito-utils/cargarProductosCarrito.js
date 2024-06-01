@@ -23,7 +23,7 @@ export function cargarProductosCarrito() {
       div.classList.add("carrito-producto");
       div.innerHTML = `
                   <img class="carrito-producto-imagen" src="${
-                    producto.imagen.imagen1
+                    producto.imagen
                   }" alt="${producto.titulo}">
                   <div class="carrito-producto-titulo">
                       <h3>${producto.titulo}</h3>
@@ -35,6 +35,10 @@ export function cargarProductosCarrito() {
                   <div class="carrito-producto-precio">
                       <small>Precio</small>
                       <p>$${producto.precio}</p>
+                  </div>
+                  <div class="carrito-producto-precio">
+                      <small>Talle</small>
+                      <p>${producto.talle}</p>
                   </div>
                   <div class="carrito-producto-subtotal">
                       <small>Subtotal</small>
@@ -56,5 +60,4 @@ export function cargarProductosCarrito() {
     contenedorCarritoAcciones.classList.add("disabled");
     contenedorCarritoComprado.classList.add("disabled");
   }
-  console.log(productosEnCarrito);
 }

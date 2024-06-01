@@ -10,7 +10,8 @@ fetch("./js/productos.json")
     productos = data;
   });
 
-export function agregarAlCarrito(e) {
+
+export function agregarAlCarrito(e,talleSeleccionado,imagen) {
   Toastify({
     text: "Producto agregado",
     duration: 3000,
@@ -46,9 +47,12 @@ export function agregarAlCarrito(e) {
     productosEnCarrito[index].cantidad++;
   } else {
     productoAgregado.cantidad = 1;
+    productoAgregado.talle = talleSeleccionado
+    productoAgregado.imagen = imagen
+    console.log("NO",productoAgregado.imagen);
     productosEnCarrito.push(productoAgregado);
   }
-
+  console.log(productoAgregado);
   actualizarNumero();
   if (!modalAbierto) {
     setTimeout(() => {

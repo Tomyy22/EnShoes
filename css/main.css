@@ -92,6 +92,10 @@ aside {
   gap: 0.5rem;
 }
 
+.producto-agrega{
+  margin-top: 20px;
+}
+
 .boton-menu {
   background-color: transparent;
   border: 0;
@@ -170,6 +174,10 @@ main {
   margin-left: 0;
   border-radius: 2rem;
   padding: 3rem;
+}
+
+.container-fluid{
+  background-color: var(--clr-black);
 }
 
 .titulo-principal {
@@ -264,13 +272,16 @@ main {
 }
 .carrito-producto-titulo {
   flex: 2;
+  text-align: center;
 }
 .carrito-producto-cantidad {
   flex: 3;
   margin-left: 2rem;
+  text-align: center;
 }
 .carrito-producto-precio {
   flex: 4;
+  text-align: center;
 }
 
 .carrito-producto-eliminar {
@@ -426,11 +437,13 @@ main {
   .carrito-producto-subtotal {
     display: none;
     flex: 5;
+    text-align: center;
   }
 
   .carrito-acciones {
     flex-wrap: wrap;
     row-gap: 1rem;
+    
   }
 }
 
@@ -465,7 +478,7 @@ main {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 #modalProductImage {
@@ -524,6 +537,10 @@ main {
 }
 
 
+.form-control{
+  margin-bottom: 20px;
+}
+
 .bg-body-tertiary{
-  background-color: var(--clr-main) !important;
+  background-color: var(--clr-black) !important;
 }

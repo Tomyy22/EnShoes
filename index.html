@@ -73,13 +73,13 @@
               </a>
             </li>
           </ul>
-          <div class="navbar bg-body-tertiary">
+          <!-- <div class="navbar bg-body-tertiary">
             <div class="container-fluid">
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               </form>
             </div>
-          </div> 
+          </div>  -->
         </nav>
         
         <footer>
@@ -95,6 +95,13 @@
         <h2 class="titulo-principal" id="titulo-principal">
           Todos los productos
         </h2>
+        <div class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            </form>
+          </div>
+        </div> 
         <div id="contenedor-productos" class="contenedor-productos"></div>
       </main>
       
@@ -111,6 +118,7 @@
           <h3 id="modalProductName"></h3>
           <p id="modalProductPrice"></p>
           <p id="modalProductTalle"></p>
+          <select id="modalProductSelectTalle" class="form-select"></select>
           <button class="producto-agrega">Agregar <i class="bi bi-cart4"></i></button>
         </div>
       </div>
